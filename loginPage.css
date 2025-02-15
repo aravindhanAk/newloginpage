@@ -1,0 +1,141 @@
+.container {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+}
+
+.loginFormContainer {
+  flex: 1;
+  padding-top: 10%;
+  padding-left: 10%;
+  font-family: "Nunito Sansif", sans-serif;
+  color: rgba(82, 82, 82, 1);
+}
+
+.loginText {
+  font-size: 150px;
+  padding: 10px;
+  margin: 5px;
+}
+
+.h21 {
+  font-size: 60px;
+  font-weight: 500;
+  padding: 10px;
+  margin: 3px;
+}
+
+.googleimage {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-right: 35%;
+  margin-top: 4%;
+  margin-bottom: 4%;
+  border: 5px;
+  border-color: rgba(82, 82, 82, 0.5);
+  border-radius: 30px;
+  border-style: solid;
+
+  font-size: 20px;
+  font-weight: 100;
+}
+
+.h31 {
+  margin-left: 22%;
+  font-size: 30px;
+  font-weight: 700;
+  margin-top: 1%;
+  margin-bottom: 4%;
+  align-items: center;
+}
+
+.logindiv h1 {
+  font-size: 40px;
+}
+input {
+  padding-left: 1%;
+  font-size: 60px;
+  width: 65%;
+  height: 150px;
+  border-color: rgba(82, 82, 82, 0.5);
+  border-style: solid;
+
+  border-radius: 20px;
+}
+
+input::placeholder {
+  align-items: center;
+
+  font-size: 45px;
+  padding-top: 15%;
+  padding-left: 1%;
+  font-family: "Nunito Sansif", sans-serif;
+  color: rgba(82, 82, 82, 0.5);
+}
+
+#check {
+  display: inline-block;
+  border-radius: 40;
+  accent-color: rgba(127, 38, 91, 1);
+  width: 50px;
+  height: 50px;
+}
+
+.h22 {
+  width: 45%;
+  display: inline-block;
+  opacity: 0.5;
+  font-weight: 100;
+  font-size: 60px;
+  margin-left: 0.5%;
+  position: relative;
+  top: -5px;
+}
+
+.h32 {
+  display: inline-block;
+  opacity: 1;
+  font-weight: 500;
+  font-size: 60px;
+  text-align: justify;
+  color: rgba(127, 38, 91, 1);
+}
+
+.button {
+  display: flex;
+  width: 65%;
+
+  justify-content: center;
+}
+button {
+  border: 0px;
+  width: 100%;
+  height: 150px;
+  border-radius: 20px;
+  background-color: rgba(127, 38, 91, 1);
+  font-size: 60px;
+  font-weight: 600;
+  color: aliceblue;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.lastediv {
+  width: 65%;
+  display: flex;
+  justify-content: center;
+  margin-top: 18%;
+  font-size: 30px;
+  font-weight: 100;
+}
+
+.lasteh20 {
+  margin-left: 2%;
+  color: rgba(127, 38, 91, 1);
+}
+.lasteh2 {
+  opacity: 0.5;
+}
